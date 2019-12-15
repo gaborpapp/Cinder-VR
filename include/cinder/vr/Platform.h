@@ -44,7 +44,9 @@
 #include "cinder/Quaternion.h"
 #include "cinder/Vector.h"
 
+#if defined( CINDER_MSW )
 #define CINDER_VR_ENABLE_OCULUS
+#endif
 #define CINDER_VR_ENABLE_OPENVR
 
 namespace cinder { namespace vr {

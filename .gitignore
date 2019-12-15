@@ -13,3 +13,7 @@ Release/
 Debug_ANGLE/
 Release_ANGLE/
 ipch/
+
+# Linux cruft
+*.sw[a-z]
+build

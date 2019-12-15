@@ -4,7 +4,7 @@
 #include "cinder/CameraUi.h"
 #include "cinder/Log.h"
 
-#include "cinder/vr/vr.h"
+#include "cinder/vr/Vr.h"
 
 using namespace ci;
 using namespace ci::app;

@@ -38,7 +38,9 @@
 
 #include "cinder/vr/Environment.h"
 #include "cinder/vr/Context.h"
+#if defined( CINDER_MSW )
 #include "cinder/vr/oculus/DeviceManager.h"
+#endif
 #include "cinder/vr/openvr/DeviceManager.h"
 #include "cinder/Log.h"
 
